@@ -1,0 +1,5 @@
+usr/include
+usr/lib/libstage.so
+usr/lib/libstage.la
+usr/lib/libstage.a
+usr/lib/pkgconfig/stage.pc

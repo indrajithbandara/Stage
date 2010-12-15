@@ -1,0 +1,94 @@
+Source: stage
+Priority: extra
+Maintainer: Michael Janssen <jamuraa@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), cmake, libplayercore3.0-dev, libplayerc3.0-dev, libltdl3-dev, libpng12-dev, libfltk1.1-dev, pkg-config, doxygen, graphviz
+Standards-Version: 3.9.1
+Section: libs
+
+Package: stage
+Priority: extra
+Section: science
+Architecture: any
+Depends: libstage4, stage-player-plugin, robot-player
+Description: Robot simulator
+ Stage simulates a population of mobile robots, sensors
+ and objects in a two-dimensional bitmapped
+ environment. Stage is designed to support research
+ into multi-agent autonomous systems, so it provides
+ fairly simple, computationally cheap models of lots of
+ devices rather than attempting to emulate any device
+ with great fidelity.
+ .
+ This package is the main package, which includes the
+ stage binary for running standalone simulations,
+ and also depends on the other common pieces of the
+ Stage simulator, including the Player plugin.
+
+
+Package: libstage4-dev
+Provides: libstage-dev
+Conflicts: libstage-dev
+Section: libdevel
+Architecture: any
+Depends: libstage4 (= ${binary:Version})
+Description: Robot simulation library - development files
+ Stage simulates a population of mobile robots, sensors
+ and objects in a two-dimensional bitmapped
+ environment. Stage is designed to support research
+ into multi-agent autonomous systems, so it provides
+ fairly simple, computationally cheap models of lots of
+ devices rather than attempting to emulate any device
+ with great fidelity.
+ .
+ This package includes the development files needed
+ to use the simulator as a library.
+
+Package: libstage4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Robot simulation library
+ Stage simulates a population of mobile robots, sensors
+ and objects in a two-dimensional bitmapped
+ environment. Stage is designed to support research
+ into multi-agent autonomous systems, so it provides
+ fairly simple, computationally cheap models of lots of
+ devices rather than attempting to emulate any device
+ with great fidelity.
+ .
+ This package includes the simulation library,
+ which can be used separately to design your own
+ simulations.
+
+Package: stage-player-plugin
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Robot simulation plugin for Player
+ Stage simulates a population of mobile robots, sensors
+ and objects in a two-dimensional bitmapped
+ environment. Stage is designed to support research
+ into multi-agent autonomous systems, so it provides
+ fairly simple, computationally cheap models of lots of
+ devices rather than attempting to emulate any device
+ with great fidelity.
+ .
+ This package provides a plugin for Stage to work
+ with Player, a robot interface library.
+
+Package: stage-doc
+Section: doc
+Architecture: all
+Homepage: http://playerstage.sourceforge.net/
+Description: Robot simulation - documentation
+ Stage simulates a population of mobile robots, sensors
+ and objects in a two-dimensional bitmapped
+ environment. Stage is designed to support research
+ into multi-agent autonomous systems, so it provides
+ fairly simple, computationally cheap models of lots of
+ devices rather than attempting to emulate any device
+ with great fidelity.
+ .
+ This package provides the documentation of the
+ devices simulated by the stage system.
+

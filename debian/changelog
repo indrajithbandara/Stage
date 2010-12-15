@@ -1,0 +1,27 @@
+stage (2.1.1-1) unstable; urgency=low
+
+  * New upstream release. Closes: #530890. 
+  * Integrate changes provided by Daniel Hess: 
+    - Use dpatch to modify upstream source.
+    - Add manpages for binaries.
+    - Install examples as source.
+    - New package stage-doc with documentation.
+  * Standards-Version 3.8.1
+
+ -- Michael Janssen <jamuraa@debian.org>  Wed, 03 Jun 2009 01:12:37 -0500
+
+stage (2.0.3-2) unstable; urgency=low
+
+  * Depend on 'robot-player' instead of 'player'. Closes: #439804
+  * Add -D_GNU_SOURCE to CFLAGS for amd64 compilation. Closes: #440878
+  * Change make distclean so as to not ignore other errors.
+  * Update address of the FSF in debian/copyright.
+
+ -- Michael Janssen <jamuraa@debian.org>  Tue, 27 Nov 2007 18:40:29 -0600
+
+stage (2.0.3-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Michael Janssen <jamuraa@debian.org>  Thu, 17 May 2007 21:45:39 -0500
+

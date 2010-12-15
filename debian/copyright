@@ -1,0 +1,68 @@
+This package was debianized by Michael Janssen <jamuraa@debian.org> on
+Thu, 17 May 2007 18:08:12 -0500.
+
+It was donwloaded via git from <git://github.com/rtv/Stage.git>
+
+Upstream Authors:
+    Richard Vaughan (vaughan@sfu.ca)
+    Brian Gerkey (gerkey@willowgarage.com)
+    Reed Hedges (hedges@mobilerobots.com)
+    Andrew Howard (andrew.b.howard@jpl.nasa.gov)
+    Toby Collett (tcollett+player@plan9.net.nz)
+    Pooya Karimian (pooyak@sfu.ca)
+    Jeremy Asher (jra11@sfu.ca)
+    Alex Couture-Beil (asc17@sfu.ca)
+    Geoff Biggs (git@killbots.net)
+    Rich Mattes (jpgr87@github.com)
+    Abbas Sadat (abbas.sadat@gmail.com)
+
+Copyright: 
+   Copyright (C) 2001-2004 Richard Vaughan, Andrew Howard and Brian
+   Gerkey for the Player/Stage Project
+   http://playerstage.sourceforge.net
+
+License:
+
+All files except the files in the replace/ directory hold the following:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+ 
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+    MA 02110-1301, USA.
+
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+The files in the replace/ directory hold the following: 
+
+   The GNU C Library is free software; you can redistribute it and/or
+   modify it under the terms of the GNU Library General Public License as
+   published by the Free Software Foundation; either version 2 of the
+   License, or (at your option) any later version.
+
+   The GNU C Library is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Library General Public License for more details.
+
+   You should have received a copy of the GNU Library General Public
+   License along with the GNU C Library; see the file COPYING.LIB.  If not,
+   write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+   Boston, MA 02110-1301, USA.
+
+On Debian systems, the complete text of the GNU Library General Public
+License can be found in `/usr/share/common-licenses/LGPL`
+
+The Debian packaging is (C) 2010, Michael Janssen <jamuraa@debian.org> and
+is licensed under the GPL, see above.
