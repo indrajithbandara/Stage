@@ -61,6 +61,9 @@ Description: Robot simulation library
 Package: stage-player-plugin
 Section: libs
 Architecture: any
+Provides: libstageplugin1
+Replaces: libstageplugin1
+Conflicts: libstageplugin1
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Robot simulation plugin for Player
  Stage simulates a population of mobile robots, sensors

@@ -13,10 +13,9 @@ override_dh_auto_build:
 	(cd docsrc && make doc)
 
 override_dh_install:
-	dh_install
 	# install the docs
 	install -d debian/tmp/usr/share/doc/stage
 	cp -rv docsrc/stage debian/tmp/usr/share/doc/stage/html
 	# remove some useless scripts
 	rm debian/tmp/usr/share/stage/worlds/*.sh
-
+	dh_install
