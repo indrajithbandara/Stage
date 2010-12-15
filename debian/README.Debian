@@ -1,6 +1,12 @@
 stage for Debian
 ----------------
 
-<possible notes regarding this package - if none, delete this file>
+Stage is split into four packages in Debian:
+ - stage contains the stage binary and the example player configuration files.
+ - libstage4 contains the library actually doing the work
+ - libstage4-dev with the headers and support files, and example files
+   for using the libstage4 library alone (without player)
+ - stage-doc contains the API documentation for stage
+ - stage-player-plugin provides the player plugin for stage.
 
  -- Michael Janssen <jamuraa@debian.org>  Thu, 17 May 2007 18:08:12 -0500

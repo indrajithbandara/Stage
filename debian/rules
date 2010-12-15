@@ -3,3 +3,17 @@
 %: 
 	dh $@
 
+override_dh_clean:
+	dh_clean
+	(cd docsrc && make clean)
+
+override_dh_auto_build:
+	dh_auto_build
+	# docs aren't built automatically
+	(cd docsrc && make doc)
+
+override_dh_install:
+	dh_install
+	# install the docs
+	install -d debian/tmp/usr/share/doc/stage
+	install docsrc/stage debian/tmp/usr/share/doc/stage/html

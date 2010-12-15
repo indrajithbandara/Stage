@@ -6,10 +6,9 @@ Standards-Version: 3.9.1
 Section: libs
 
 Package: stage
-Priority: extra
 Section: science
 Architecture: any
-Depends: libstage4, stage-player-plugin, robot-player
+Depends: libstage4, stage-player-plugin, robot-player, ${misc:Depends}, ${shlibs:Depends}
 Description: Robot simulator
  Stage simulates a population of mobile robots, sensors
  and objects in a two-dimensional bitmapped
@@ -24,13 +23,12 @@ Description: Robot simulator
  and also depends on the other common pieces of the
  Stage simulator, including the Player plugin.
 
-
 Package: libstage4-dev
 Provides: libstage-dev
 Conflicts: libstage-dev
 Section: libdevel
 Architecture: any
-Depends: libstage4 (= ${binary:Version})
+Depends: libstage4 (= ${binary:Version}), ${misc:Depends}
 Description: Robot simulation library - development files
  Stage simulates a population of mobile robots, sensors
  and objects in a two-dimensional bitmapped
@@ -78,6 +76,7 @@ Description: Robot simulation plugin for Player
 
 Package: stage-doc
 Section: doc
+Depends: ${misc:Depends}
 Architecture: all
 Homepage: http://playerstage.sourceforge.net/
 Description: Robot simulation - documentation

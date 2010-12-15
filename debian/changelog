@@ -1,3 +1,11 @@
+stage (4.0.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Renamed libstageplugin1 to stage-player-plugin.
+  * Standards-Version to 3.9.1
+
+ -- Michael Janssen <jamuraa@debian.org>  Wed, 15 Dec 2010 16:34:42 -0600
+
 stage (2.1.1-1) unstable; urgency=low
 
   * New upstream release. Closes: #530890. 

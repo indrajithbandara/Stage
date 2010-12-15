@@ -64,5 +64,5 @@ The files in the replace/ directory hold the following:
 On Debian systems, the complete text of the GNU Library General Public
 License can be found in `/usr/share/common-licenses/LGPL`
 
-The Debian packaging is (C) 2010, Michael Janssen <jamuraa@debian.org> and
+The Debian packaging is Copyright 2010, Michael Janssen <jamuraa@debian.org> and
 is licensed under the GPL, see above.
