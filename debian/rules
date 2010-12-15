@@ -16,4 +16,4 @@ override_dh_install:
 	dh_install
 	# install the docs
 	install -d debian/tmp/usr/share/doc/stage
-	install docsrc/stage debian/tmp/usr/share/doc/stage/html
+	cp -rv docsrc/stage debian/tmp/usr/share/doc/stage/html

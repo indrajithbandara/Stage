@@ -24,7 +24,7 @@ doc-install: doc
 
 # zap the built docs
 clean:
-	rm -rf stage sourced.txt
+	rm -rf stage sourced.txt player.tag
 
 # copy the latest docs to the web server
 upload: 
