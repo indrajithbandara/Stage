@@ -17,3 +17,6 @@ override_dh_install:
 	# install the docs
 	install -d debian/tmp/usr/share/doc/stage
 	cp -rv docsrc/stage debian/tmp/usr/share/doc/stage/html
+	# remove some useless scripts
+	rm debian/tmp/usr/share/stage/worlds/*.sh
+
