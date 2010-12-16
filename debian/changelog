@@ -1,6 +1,8 @@
 stage (4.0.1-1) unstable; urgency=low
 
   * New upstream release.
+  * Properly link to libraries. Closes: #553261
+  * Build-Depends properly on new needed Player packages. Closes: #569485
   * Renamed libstageplugin1 to stage-player-plugin.
   * Standards-Version to 3.9.1
 
